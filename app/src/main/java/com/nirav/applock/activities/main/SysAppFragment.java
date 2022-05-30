@@ -1,0 +1,58 @@
+package com.nirav.applock.activities.main;
+
+import android.os.Bundle;
+import android.os.Parcelable;
+import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.nirav.applock.R;
+import com.nirav.applock.adapters.MainAdapter;
+import com.nirav.applock.adapters.MainAdapterTemp;
+import com.nirav.applock.base.BaseFragment;
+import com.nirav.applock.model.CommLockInfo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SysAppFragment extends BaseFragment {
+
+    private RecyclerView mRecyclerView;
+    @Nullable
+    private List<CommLockInfo> data, list;
+    @Nullable
+    private MainAdapterTemp mMainAdapter;
+
+    @NonNull
+    public static SysAppFragment newInstance(List<CommLockInfo> list) {
+        SysAppFragment sysAppFragment = new SysAppFragment();
+        Bundle bundle = new Bundle();
+        bundle.putParcelableArrayList("data", (ArrayList<? extends Parcelable>) list);
+        sysAppFragment.setArguments(bundle);
+        return sysAppFragment;
+    }
+
+    @Override
+    protected int getContentViewId() {
+        return R.layout.fragment_app_list;
+    }
+
+    @Override
+    protected void init(View rootView) {
+        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        data = getArguments().getParcelableArrayList("data");
+        mMainAdapter = new MainAdapterTemp(getContext());
+        mRecyclerView.setAdapter(mMainAdapter);
+        list = new ArrayList<>();
+        for (CommLockInfo info : data) {
+            if (info.isSysApp()) {
+                list.add(info);
+            }
+        }
+        mMainAdapter.setLockInfos(list);
+    }
+}

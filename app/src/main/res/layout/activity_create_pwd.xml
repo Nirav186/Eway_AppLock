@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:background="@color/appColor">
+
+            <ImageView
+                android:id="@+id/lock_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_lock_privacy"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/lock_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lock_icon"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/welcome_to_the_app_lock"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <com.nirav.applock.widget.LockPatternView
+                android:id="@+id/lock_pattern_view"
+                android:layout_width="290dp"
+                android:layout_height="290dp"
+                android:layout_above="@+id/btn_reset"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/btn_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:gravity="center"
+                android:text="@string/reset"
+                android:textColor="@color/tr_black50"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

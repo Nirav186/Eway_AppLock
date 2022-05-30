@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_70">#b3ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_10">#19ffffff</color>
+    <color name="white_30">#4Dffffff</color>
+    <color name="tr_black10">#1a000000</color>
+    <color name="tr_black50">#80000000</color>
+    <color name="line_color">#eaeaea</color>
+    <color name="font_deep_gray">#5b5b5b</color>
+    <color name="font_light_gray">#b7b7b7</color>
+    <color name="bg_blue_normal">#2c9ffe</color>
+    <color name="bg_blue_normal_50">#7f2c9ffe</color>
+    <color name="bg_blue_selected">#2994ec</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_white_normal">#ffffff</color>
+    <color name="bg_white_selected">#f3f3f3</color>
+    <color name="appColor">#007a78</color>
+
+    <color name="black">#FF000000</color>
+
+    <color name="blue">#4944E6</color>
+    <color name="red">#FFF44336</color>
+    <color name="gray">#A2AAC3</color>
+    <color name="mainBack">#fefefe</color>
+
+    <color name="appBackColor">#031524</color>
+    <color name="appFrontColor">#00223f</color>
+
+    <color name="statusBarColor">#000000</color>
+    <color name="appBarColor">#212121</color>
+    <color name="backColor">#303030</color>
+    <color name="cardDialogColor">#424242</color>
+</resources>

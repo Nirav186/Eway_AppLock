@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/drawable/ic_lock.xml" value="0.2595" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/drawable/ic_unlock.xml" value="0.2075" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_create_pwd.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_gesture_self_unlock.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_image_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_intruder.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_main.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/activity_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/fragment_app_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/item.xml" value="0.264" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/item_img.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/item_main_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/item_photo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/item_slide_image.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/layout_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/pop_unlock_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nirav Rangapariya/Desktop/Eway/22 01 2022/Eway/MyAppLock/app/src/main/res/layout/temp.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="Eway.app" />
+      </set>
+    </option>
+  </component>
+</project>
